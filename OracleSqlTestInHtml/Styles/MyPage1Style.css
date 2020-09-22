@@ -1,0 +1,215 @@
+div.MyPage1TopSpace {
+	height: 50px;
+}
+
+div.MyPage1Panel {
+	width: 715px;
+	height: 610px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: gray;
+	border-radius: 8px;
+	border: solid;
+    border-width: 1px;
+    border-color: #6d6e6b;
+}
+
+div.MyPage1Area {
+	margin: 1px;
+	width: 713px;
+	height: 608px;
+	background-color: #ededed;
+	border-radius: 5px;
+}
+
+table.MyPage1Table1 {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+td.MyPage1Table1Column1 {
+	width: 65%;
+}
+
+div.MyPage1Results {
+    height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	border: solid;
+	border-width: 1px;
+	background-color: white;
+}
+
+table.MyPage1Table2 {
+	width: 100%;
+}
+
+thead.MyPage1Table2Head {
+	height: 23px;
+	width: 100%;
+	border: solid;
+	border-width: 1px;
+	background-color: #ededed;
+}
+
+tbody.MyPage1Table2Body {
+	width: 100%;
+}
+
+td.MyPage1Table1Column2 {
+	width: 35%;
+}
+
+table.MyPage1Table3 {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+tr.MyPage1Table3Row1 {
+	height: 50%;
+	width: 100%;
+}
+
+label.MyPage1ModifyLabel {
+    position: absolute;
+    margin-left: 10px;
+    top: 52px;
+    background-color: #ededed;
+}
+
+div.MyPage1TopModifyContainer {
+	height: 100%;
+	width: 100%;
+	border-radius: 8px;
+	border: solid;
+    border-width: 1px;
+    border-color: #6d6e6b;
+}
+
+form.MyPage1Form {
+    height: 100%;
+	width: 100%;
+}
+
+div.MyPage1SelectContainer {
+	height: 23px;
+	width: 90%;
+	padding-top: 30px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+label.MyPage1SelectLabel {
+	float: left;
+}
+
+select.MyPage1SelectSelect {
+	float: right;
+}
+
+div.MyPage1NameContainer {
+	height: 23px;
+	width: 90%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+label.MyPage1NameLabel {
+	float: left;
+}
+
+input.MyPage1NameTextBox {
+	float: right;
+}
+
+div.MyPage1MothernameContainer {
+	height: 23px;
+	width: 90%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+label.MyPage1MothernameLabel {
+	float: left;
+}
+
+input.MyPage1MothernameTextBox {
+	float: right;
+}
+
+div.MyPage1LocationContainer {
+	height: 23px;
+	width: 90%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+label.MyPage1LocationLabel {
+	float: left;
+}
+
+input.MyPage1LocationTextBox {
+	float: right;
+}
+
+div.MyPage1BirthdateContainer {
+	height: 23px;
+	width: 90%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+label.MyPage1BirthdateLabel {
+	float: left;
+}
+
+input.MyPage1BirthdateTextBox {
+	float: right;
+}
+
+div.MyPage1Table4Container {
+	display: block;
+	height: 25px;
+	width: 100%;
+	margin-top: 70px;
+}
+
+table.MyPage1Table4 {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+tr.MyPage1Table3Row2 {
+	height: 50%;
+	width: 100%;
+}
+
+div.MyPage1BottomButtonsContainer {
+	width: 100%;
+	height: 25px;
+	margin-top: 270px;
+}
+
+input.MyPage1ListButton {
+	float: left;
+}
+
+input.MyPage1CloseButton {
+	float: right;
+}

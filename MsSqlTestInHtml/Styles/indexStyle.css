@@ -1,0 +1,67 @@
+div.IndexTopSpace {
+	height: 150px;
+}
+
+div.IndexPanel {
+	width: 230px;
+	height: 300px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #6d6e6b;
+	border-radius: 8px;
+	border: solid;
+    border-width: 1px;
+    border-color: gray;
+}
+
+div.IndexArea {
+	margin: 1px;
+	width: 228px;
+	height: 298px;
+	background-color: #ededed;
+	border-radius: 5px;
+}
+
+table.IndexTable {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+tbody.IndexTableBody {
+	height: 100%;
+    width: 100%;
+}
+
+tr.InputTableRow {
+	height: 30px;
+}
+
+input.IndexPeopleButton {
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input.IndexRelationshipsButton {
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input.IndexRelationsButton {
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+input.IndexExitButton {
+	width: 100px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}

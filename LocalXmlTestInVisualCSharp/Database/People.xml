@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<People>
+  <Person Id="1">
+    <Name>John Smith</Name>
+    <Mothername>Lisa Simmons</Mothername>
+    <Location>London</Location>
+    <Birthdate>1971.01.01</Birthdate>
+    <IsDeleted>False</IsDeleted>
+  </Person>
+  <Person Id="2">
+    <Name>Ann Davis</Name>
+    <Mothername>Mary Reed</Mothername>
+    <Location>London</Location>
+    <Birthdate>1972.02.02</Birthdate>
+    <IsDeleted>False</IsDeleted>
+  </Person>
+</People>

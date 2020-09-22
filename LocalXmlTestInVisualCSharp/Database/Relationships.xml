@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Relationships>
+  <Relationship Id="1">
+    <Name>Father</Name>
+    <IsDeleted>False</IsDeleted>
+  </Relationship>
+  <Relationship Id="2">
+    <Name>Mother</Name>
+    <IsDeleted>False</IsDeleted>
+  </Relationship>
+  <Relationship Id="3">
+    <Name>Husband</Name>
+    <IsDeleted>False</IsDeleted>
+  </Relationship>
+  <Relationship Id="4">
+    <Name>Wife</Name>
+    <IsDeleted>False</IsDeleted>
+  </Relationship>
+  <Relationship Id="5">
+    <Name>Sister</Name>
+    <IsDeleted>False</IsDeleted>
+  </Relationship>
+  <Relationship Id="6">
+    <Name>Brother</Name>
+    <IsDeleted>False</IsDeleted>
+  </Relationship>
+  <Relationship Id="7">
+    <Name>Son</Name>
+    <IsDeleted>False</IsDeleted>
+  </Relationship>
+  <Relationship Id="8">
+    <Name>Daughter</Name>
+    <IsDeleted>False</IsDeleted>
+  </Relationship>
+  <Relationship Id="9">
+    <Name>Grandmother</Name>
+    <IsDeleted>False</IsDeleted>
+  </Relationship>
+  <Relationship Id="10">
+    <Name>Grandfather</Name>
+    <IsDeleted>False</IsDeleted>
+  </Relationship>
+  <Relationship Id="11">
+    <Name>Grandson</Name>
+    <IsDeleted>False</IsDeleted>
+  </Relationship>
+  <Relationship Id="12">
+    <Name>Granddaughter</Name>
+    <IsDeleted>False</IsDeleted>
+  </Relationship>
+</Relationships>

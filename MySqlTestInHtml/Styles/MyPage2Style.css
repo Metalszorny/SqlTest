@@ -1,0 +1,164 @@
+div.MyPage2TopSpace {
+	height: 50px;
+}
+
+div.MyPage2Panel {
+	width: 715px;
+	height: 610px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: gray;
+	border-radius: 8px;
+	border: solid;
+    border-width: 1px;
+    border-color: #6d6e6b;
+}
+
+div.MyPage2Area {
+	margin: 1px;
+	width: 713px;
+	height: 608px;
+	background-color: #ededed;
+	border-radius: 5px;
+}
+
+table.MyPage2Table1 {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+td.MyPage2Table1Column1 {
+	width: 65%;
+}
+
+div.MyPage2Results {
+    height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	border: solid;
+	border-width: 1px;
+	background-color: white;
+}
+
+table.MyPage2Table2 {
+	width: 100%;
+}
+
+thead.MyPage2Table2Head {
+	height: 23px;
+	width: 100%;
+	border: solid;
+	border-width: 1px;
+	background-color: #ededed;
+}
+
+tbody.MyPage2Table2Body {
+	width: 100%;
+}
+
+td.MyPage2Table1Column2 {
+	width: 35%;
+}
+
+table.MyPage2Table3 {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+tr.MyPage2Table3Row1 {
+	height: 50%;
+	width: 100%;
+}
+
+label.MyPage2ModifyLabel {
+    position: absolute;
+    margin-left: 10px;
+    top: 52px;
+    background-color: #ededed;
+}
+
+div.MyPage2TopModifyContainer {
+	height: 100%;
+	width: 100%;
+	border-radius: 8px;
+	border: solid;
+    border-width: 1px;
+    border-color: #6d6e6b;
+}
+
+form.MyPage2Form {
+    height: 100%;
+	width: 100%;
+}
+
+div.MyPage2SelectContainer {
+	height: 23px;
+	width: 90%;
+	padding-top: 30px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+label.MyPage2SelectLabel {
+	float: left;
+}
+
+select.MyPage2SelectSelect {
+	float: right;
+}
+
+div.MyPage2TypeContainer {
+	height: 23px;
+	width: 90%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+label.MyPage2TypeLabel {
+	float: left;
+}
+
+input.MyPage2TypeTextBox {
+	float: right;
+}
+
+div.MyPage2Table4Container {
+	display: block;
+	height: 25px;
+	width: 100%;
+	margin-top: 170px;
+}
+
+table.MyPage2Table4 {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+tr.MyPage2Table3Row2 {
+	height: 50%;
+	width: 100%;
+}
+
+div.MyPage2BottomButtonsContainer {
+	width: 100%;
+	height: 25px;
+	margin-top: 270px;
+}
+
+input.MyPage2ListButton {
+	float: left;
+}
+
+input.MyPage2CloseButton {
+	float: right;
+}

@@ -1,0 +1,108 @@
+CREATE DATABASE "PgSqlTestDatabase"
+ WITH OWNER = postgres
+ ENCODING = 'UTF8'
+ TABLESPACE = pg_default
+ LC_COLLATE = 'Hungarian_Hungary.1250'
+ LC_CTYPE = 'Hungarian_Hungary.1250'
+ CONNECTION LIMIT = -1;
+
+
+CREATE TABLE public."Relationships"
+
+(
+
+  "Id" integer NOT NULL,
+
+  "Name" text NOT NULL,
+
+  "IsDeleted" boolean NOT NULL,
+
+  CONSTRAINT "Relationships_Pk" PRIMARY KEY ("Id"),
+
+  CONSTRAINT "Relationships_Un1" UNIQUE ("Name")
+
+) 
+WITH (
+OIDS=FALSE
+);
+
+ALTER TABLE "Relationships"
+ OWNER TO postgres;
+
+CREATE TABLE public."People"
+
+(
+
+  "Id" integer NOT NULL,
+
+  "Name" text NOT NULL,
+
+  "Mothername" text,
+
+  "Location" text,
+
+  "Birthdate" date,
+
+  "IsDeleted" boolean NOT NULL,
+
+  CONSTRAINT "People_Pk" PRIMARY KEY ("Id")
+
+)
+WITH (
+OIDS=FALSE
+);
+
+ALTER TABLE "People"
+ OWNER TO postgres;
+
+CREATE TABLE public."Relations"
+
+(
+
+  "Id" integer NOT NULL,
+
+  "Person1" integer NOT NULL,
+
+  "Relationship" integer NOT NULL,
+
+  "Person2" integer NOT NULL,
+
+  "IsDeleted" boolean NOT NULL,
+
+  CONSTRAINT "Relations_Pk" PRIMARY KEY ("Id"),
+
+  CONSTRAINT "Relations_Fk1" FOREIGN KEY ("Person1") REFERENCES "People" ("Id") MATCH SIMPLE ON UPDATE CASCADE ON DELETE RESTRICT,
+
+  CONSTRAINT "Relations_Fk2" FOREIGN KEY ("Relationship")
+ REFERENCES "Relationships" ("Id") MATCH SIMPLE ON UPDATE CASCADE ON DELETE RESTRICT,
+
+  CONSTRAINT "Relations_Fk3" FOREIGN KEY ("Person2") REFERENCES "People" ("Id") MATCH SIMPLE
+ ON UPDATE CASCADE ON DELETE RESTRICT
+
+)
+WITH (
+OIDS=FALSE
+);
+
+ALTER TABLE "Relations"
+ OWNER TO postgres;
+
+
+INSERT INTO PgSqlTestDatabase.public.Relationships (Id, Name, IsDeleted) VALUES (1, 'Father', FALSE);
+INSERT INTO PgSqlTestDatabase.public.Relationships (Id, Name, IsDeleted) VALUES (2, 'Mother', FALSE);
+INSERT INTO PgSqlTestDatabase.public.Relationships (Id, Name, IsDeleted) VALUES (3, 'Husband', FALSE);
+INSERT INTO PgSqlTestDatabase.public.Relationships (Id, Name, IsDeleted) VALUES (4, 'Wife', FALSE);
+INSERT INTO PgSqlTestDatabase.public.Relationships (Id, Name, IsDeleted) VALUES (5, 'Sister', FALSE);
+INSERT INTO PgSqlTestDatabase.public.Relationships (Id, Name, IsDeleted) VALUES (6, 'Brother', FALSE);
+INSERT INTO PgSqlTestDatabase.public.Relationships (Id, Name, IsDeleted) VALUES (7, 'Son', FALSE);
+INSERT INTO PgSqlTestDatabase.public.Relationships (Id, Name, IsDeleted) VALUES (8, 'Daughter', FALSE);
+INSERT INTO PgSqlTestDatabase.public.Relationships (Id, Name, IsDeleted) VALUES (9, 'Grandmother', FALSE);
+INSERT INTO PgSqlTestDatabase.public.Relationships (Id, Name, IsDeleted) VALUES (10, 'Grandfather', FALSE);
+INSERT INTO PgSqlTestDatabase.public.Relationships (Id, Name, IsDeleted) VALUES (11, 'Grandson', FALSE);
+INSERT INTO PgSqlTestDatabase.public.Relationships (Id, Name, IsDeleted) VALUES (12, 'Granddaughter', FALSE);
+
+INSERT INTO PgSqlTestDatabase.public.People (Id, Name, Mothername, Location, Birthdate, IsDeleted) VALUES (1, 'John Smith', 'Lisa Simmons', 'London', '1971-01-01', FALSE);
+INSERT INTO PgSqlTestDatabase.public.People (Id, Name, Mothername, Location, Birthdate, IsDeleted) VALUES (2, 'Ann Davis', 'Mary Reed', 'London', '1972-02-02', FALSE);
+
+INSERT INTO PgSqlTestDatabase.public.People (Id, Person1, Relationship, Person2, IsDeleted) VALUES (1, 1, 3, 2, FALSE);
+INSERT INTO PgSqlTestDatabase.public.People (Id, Person1, Relationship, Person2, IsDeleted) VALUES (2, 2, 4, 1, FALSE);

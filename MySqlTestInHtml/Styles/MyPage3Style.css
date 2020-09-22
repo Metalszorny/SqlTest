@@ -1,0 +1,265 @@
+div.MyPage3TopSpace {
+	height: 50px;
+}
+
+div.MyPage3Panel {
+	width: 715px;
+	height: 610px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: gray;
+	border-radius: 8px;
+	border: solid;
+    border-width: 1px;
+    border-color: #6d6e6b;
+}
+
+div.MyPage3Area {
+	margin: 1px;
+	width: 713px;
+	height: 608px;
+	background-color: #ededed;
+	border-radius: 5px;
+}
+
+table.MyPage3Table1 {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+td.MyPage3Table1Column1 {
+	width: 65%;
+}
+
+div.MyPage3Results {
+    height: 100%;
+	width: 100%;
+	overflow-x: hidden;
+	overflow-y: scroll;
+	border: solid;
+	border-width: 1px;
+	background-color: white;
+}
+
+table.MyPage3Table2 {
+	width: 100%;
+}
+
+thead.MyPage3Table2Head {
+	height: 23px;
+	width: 100%;
+	border: solid;
+	border-width: 1px;
+	background-color: #ededed;
+}
+
+tbody.MyPage3Table2Body {
+	width: 100%;
+}
+
+td.MyPage3Table1Column2 {
+	width: 35%;
+}
+
+table.MyPage3Table3 {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+tr.MyPage3Table3Row1 {
+	height: 50%;
+	width: 100%;
+}
+
+label.MyPage3ModifyLabel {
+    position: absolute;
+    margin-left: 10px;
+    top: 52px;
+    background-color: #ededed;
+}
+
+div.MyPage3TopModifyContainer {
+	height: 100%;
+	width: 100%;
+	border-radius: 8px;
+	border: solid;
+    border-width: 1px;
+    border-color: #6d6e6b;
+}
+
+form.MyPage3Form {
+    height: 100%;
+	width: 100%;
+}
+
+div.MyPage3SelectContainer {
+	height: 23px;
+	width: 90%;
+	padding-top: 30px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+label.MyPage3SelectLabel {
+	float: left;
+}
+
+select.MyPage3SelectSelect {
+	float: right;
+}
+
+div.MyPage3Person1Container {
+	height: 23px;
+	width: 90%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+label.MyPage3Person1Label {
+	float: left;
+}
+
+select.MyPage3Person1ComboBox {
+	float: right;
+}
+
+div.MyPage3RelationshipContainer {
+	height: 23px;
+	width: 90%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+label.MyPage3RelationshipLabel {
+	float: left;
+}
+
+select.MyPage3RelationshipComboBox {
+	float: right;
+}
+
+div.MyPage3Person2Container {
+	height: 23px;
+	width: 90%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+label.MyPage3Person2Label {
+	float: left;
+}
+
+select.MyPage3Person2ComboBox {
+	float: right;
+}
+
+div.MyPage3Table4Container {
+	display: block;
+	height: 25px;
+	width: 100%;
+	margin-top: 100px;
+}
+
+table.MyPage3Table4 {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+tr.MyPage3Table3Row2 {
+	height: 50%;
+	width: 100%;
+}
+
+label.MyPage3HelperLabel {
+	position: absolute;
+    margin-left: 10px;
+    top: 357px;
+    background-color: #ededed;
+}
+
+div.MyPage3HelperLabelContainer {
+	height: 50%;
+	width: 100%;
+	border-radius: 8px;
+	border: solid;
+    border-width: 1px;
+    border-color: #6d6e6b;
+}
+
+div.MyPage3HelperPerson1Container {
+	height: 23px;
+	width: 90%;
+	padding-top: 20px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+label.MyPage3HelperPerson1Label {
+	float: left;
+}
+
+input.MyPage3HelperPerson1TextBox {
+	float: right;
+}
+
+div.MyPage3HelperRelationshipContainer {
+	height: 23px;
+	width: 90%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+label.MyPage3HelperRelationshipLabel {
+	float: left;
+}
+
+input.MyPage3HelperRelationshipTextBox {
+	float: right;
+}
+
+div.MyPage3HelperPerson2Container {
+	height: 23px;
+	width: 90%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+label.MyPage3HelperPerson2Label {
+	float: left;
+}
+
+input.MyPage3HelperPerson2TextBox {
+	float: right;
+}
+
+div.MyPage3BottomButtonsContainer {
+	width: 100%;
+	height: 25px;
+	margin-top: 110px;
+}
+
+input.MyPage3ListButton {
+	float: left;
+}
+
+input.MyPage3CloseButton {
+	float: right;
+}

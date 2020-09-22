@@ -1,0 +1,6 @@
+require("wx")
+
+menu = assert(dofile("MyFrame1.lua"))
+menu()
+
+wx.wxGetApp() : MainLoop()

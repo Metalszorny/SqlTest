@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Relations>
+  <Relation Id="1">
+    <Person1>1</Person1>
+    <Relationship>3</Relationship>
+    <Person2>2</Person2>
+    <IsDeleted>False</IsDeleted>
+  </Relation>
+  <Relation Id="2">
+    <Person1>2</Person1>
+    <Relationship>4</Relationship>
+    <Person2>1</Person2>
+    <IsDeleted>False</IsDeleted>
+  </Relation>
+</Relations>

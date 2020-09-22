@@ -1,0 +1,10 @@
+<?php
+
+include 'MyFrame1.php';
+
+// The main method of the application.
+$menu = new MyFrame1(null);
+$menu->Show();
+wxEntry();
+
+?>

@@ -1,0 +1,75 @@
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	background-color: white;
+	color: black;
+	font-size: 14px;
+	font-weight: normal;
+}
+
+.TableBorder {
+    border: solid;
+	border-width: 1px;
+}
+
+.TableContent {
+	height: 23px;
+	padding: 0;
+	margin: 0;
+}
+
+input.Button {
+	height: 23px;
+	width: 70px;
+}
+
+input.Button:hover {
+    
+}
+
+input.Button:active {
+	
+}
+
+input.Button:disabled {
+	
+}
+
+input.TextBox {
+    width: 120px;
+}
+
+input.TextBox:hover {
+    
+}
+
+input.TextBox:active {
+    
+}
+
+input.TextBox:disabled {
+    
+}
+
+label.Label {
+	
+}
+
+select.ComboBox {
+	height: 23px;
+	width: 125px;
+}
+
+select.ComboBox:hover {
+	
+}
+
+select.ComboBox:active {
+	
+}
+
+select.ComboBox:disabled {
+	
+}
